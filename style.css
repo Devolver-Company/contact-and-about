@@ -1,0 +1,285 @@
+
+#contact-details
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;  
+}
+#header img{
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    align: center;
+    
+}
+#header li a{
+    align-items: flex-start;
+    align: right;
+    text-align: right;
+   
+}
+#page-header{
+    background-image: url("c:\Users\ELBOSTAN\Desktop\project\banner.png");
+}
+
+#contact-details .details span ,#form-detail form
+{
+    font-size: 12px;
+    align-items: center;
+}
+
+#contact-details .details h2 ,#form-detail form h2 {
+    
+    font-size: 25px;
+   align-items: center;
+    padding:0 0;
+}
+
+#contact-details .details h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 5%;
+}
+#contact-details .details li i{
+    front-size: 14px;
+    padding-right:5px;
+}
+#contact-details .details li img{
+    width: 3
+    0px;
+    height: 30px;
+}
+#contact-details .details li p{
+    margin: 0;
+   front-size: 14px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid #0c335d;
+}
+#form-detail form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-detail form input ,
+ #form-detail form textarea{
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #276AB3;
+}
+#form-detail form button{
+    background-color: #0c335d;
+color: #fff;
+}
+#form-detail.people div{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-detail .people div img{
+  width: 65px;  
+  height: 65;
+  object-fit: cover;
+  margin-right: 5px;
+}
+#form-detail .people div p{
+    margin: 0;
+    font-size: 13px;
+}
+#form-detail .people div p span{
+display: block;
+font-size: 16px;
+font-weight: 600;
+color: #0c335d;
+}
+@media(max-width: 799px){
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0%;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #276AB3;
+        box-shadow: 0 40px 60px #273d55;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #e1e1e1;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #74b0f1;
+        font-size: 24px;
+    }
+
+    #form-detail{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        padding: 80px;
+        border: 1px solid #e1e1e1;
+    }
+}
+.page{
+    background-color: #74b0f1;
+}
+
+#contact-detail{
+    
+    flex-direction: column;
+}
+#contact-detail .details{
+    width: 100%;
+}
+#contact-detail .map{
+    width: 100%;
+}
+/*about page*/
+#page-header.about-header{
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+    background-image: url('c:\Users\ELBOSTAN\Desktop\project\banner.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+ #about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+   text-align: center; 
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+@media(max-width: 477px){
+    .section-p1{
+        padding: 20px;
+    } 
+    #header{
+        padding: 10px 30px;
+    }  
+    h1{
+        front-size:45px;
+    } 
+    h2{
+        front-size: 32px;  
+    }
+
+#about-head{
+    flex-direction: column;
+  }
+  }
+  #feature.section-p1{
+    display: flex;
+    align-items:right;
+    max-width: 100%;
+    padding-left: 50px;
+  }
+  #newsletter.section-p1.section-m1{
+   background-color: #1b232b;
+   justify-content: space-between;
+  }
+  div.newstext{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 50px ;
+    padding-right: 50px;
+  }
+  div.form{
+    front-size:32px ;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  input{
+   background-color: #d8dce0;
+   width: auto;
+   height: 20px;
+   border-radius: 30px;
+  }
+  button{
+    background-color: #d8dce0;
+    width: auto;
+   height: 20px;
+   border-radius: 30px;
+  }
+  html{
+    background-color: #BFCEE1;
+  }
+  textarea{
+    background-color: #d8dce0;
+  }
+  h1{
+    font-size: 24px;
+  }
+  marquee{
+    background-color: #d8dce0 ;
+  }
+  img.logo{
+    background-color: #263c53;
+    width:70px;
+    height: 70px;
+  }
